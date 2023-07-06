@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+      
+    <div class="container">
+        <a href="#" class="logo"> <i class="fa fa-shopping-basket" aria-hidden="true"></i>Grocy</a>
+        
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Products</a>
+            <a href="#">Categories</a>
+            <a href="#">Review</a>
+            <a href="#">Blogs</a>
+        </nav>
+
+        <div class="icons">
+
+            <i class="fa fa-bars" aria-hidden="true" id="barsbtn"></i>
+            <i class="fa fa-search" aria-hidden="true" id="searchbtn"></i>
+           <i class="fa fa-user" aria-hidden="true" id="userbtn"></i>
+           </div>
+
+           <form action="#" id="form" class="form">
+            <input type="text" id="searchinput" placeholder="search...">
+           </form>
+         
+           <!-- second form -->
+           <form action="#" id="formcontainer">
+            <div class="formgroup">
+            <label for="name" >Username</label>
+            <input type="text" id="Username" name="Username" placeholder="Enter Username..." data-uppercase>
+            </div>
+
+        <div class="formgroup">
+
+            <label for="Password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password...">
+            
+           </div>
+           <input type='checkbox' id="checkbox">Show Password
+          
+
+           <div class="formgroup">
+            <p>Forgot your password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Sign up</a></p>
+           </div>
+
+           <div class="formgroup">
+            <input type="submit" value="submit" id="submit">
+        </div>
+           </form>
+ </div>
+
+        <!-- home section starts -->
+     
+        <section class="home" id="home">
+            
+            <div class="content">
+                <h3>Fresh and <span> Organic </span> products for you</h3>
+                <p>Everything your body needs...Nothing it doesn't</p>
+               <button id="button">Shop now</div>
+            </div>
+            
+        </section>
+
+      <!-- home ends -->
+
+      <!-- features starts -->
+        <section class="features" id="features">
+            <h1 class="heading">Our <span>Features</span></h1>
+             <div class="homecontainer" id="homecontainer">
+            <div class="homecontent">
+                <img src="fresh.png" alt="" id="img">
+                 <h3>Fresh and organic</h3>
+                 <p>Nature is the best healer</p>
+                 <button class="buttons" id="buttons1">Read more</button>
+
+                 <!-- create a hidden alert -->
+                  <div class="alert" id="alert1">
+                 <h1> Essence of organic farming</h1>
+                 <p>Organic farming is an agricultural approach that nurtures the soil,preserves biodiversity, and promotes ecological balance without relying
+                    on synthetic fertilizers,pesticides or GMOS.
+                 </p>
+                
+                 </div>
+
+            </div>
+            <div class="homecontent">
+                <img src="delivery.jpg" alt="" id="images" class="image">
+                 <h3>Free Delivery</h3>
+                 <p>come and get free delivery on all orders</p>
+                 <button class="buttons" id="buttons2">Read more</button>
+                 <!-- hidden alert -->
+                <div class="alert" id="alert2">
+                    <h1>The Convenience of Free Delivery</h1>
+                    <p>In our organic farm,we not only priotize providing fresh produce,but we also beleive in making our customers 
+                        experience as convenient as possible.Thats why we provide free delivery on all orders.Let us dulge into the benefits of this
+                        service and how it can enhance your shopping experience.
+                    </p>
+                    
+                </div>
+                 
+            </div>
+            <div class="homecontent">
+                <img src="payment.jpg" alt="" id="image" class="image">
+                 <h3>Easy Payments</h3>
+                 <p>Gratefullness is a payment everyone can afford</p>
+                 <button class="buttons" id="buttons3">Read more</button>
+
+                 <!-- hidden alert -->
+                <div class="alert" id="alert3">
+                    <h1>Secure and Reliable Transaction</h1>
+                    <p>We understand the importance of security when it comes to online payments. That's why we have partnered with trusted and reputable
+                         payment gateways to ensure that your transactions are secure and protected. Whether you choose to pay with your credit card, debit card, 
+                        or utilize digital wallet services, you can have peace of mind knowing that your personal and financial information is kept safe.</p>
+                        
+                </div>
+            </div>
+
+          </div>
+
+    </section>
+    <!-- product section -->
+    
+    <div class="productcontainer" id="productcontainer">
+        <h1 class="heading">Our <span>Products</span></h1>
+        <div class="productcontent" id="productcontent"></div>
+    </div>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add to cart</h2>
+            <label for="quantity" class="label">Quantity</label>
+            <input type="number" id="quantity" class="quantity-input">
+            <button id="addTocart" class="Button">Add to your cart</button>
+            <p class="total-Amount" id="totalamount"></p>
+        </div>
+    </div>
+     
+    <!-- section Categories -->
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Category</span></h1>
+        <div class="categorycontainer" id="categorycontainer">
+
+            <div class="categorycontent" id="categorycontent">
+                <img src="organic vegies.jpg" alt="vegies" class="imagee">
+                <h3>Organic Vegetables</h3>
+                <p>It's always better when it's natural</p>
+                <button class="Buttons" id="buttons">Read More</button>
+
+                <!-- alert -->
+               <div class="show" id="show1">
+                <h1>Supporting Local Farmers</h1>
+                <p>Buying Organic Vegetables supports local farmers who follow environment friendly practices and encourages a moresustainable food system</p>
+               </div>
+            </div>
+
+            <div class="categorycontent" id="categorycontent">
+                <img src="organic fruits.jpg" alt="vegies" class="imagee">
+                <h3>Organic Fruits</h3>
+                <p>I live my life by the seed of my plants</p>
+                <button class="Buttons" id="Buttons2">Read More</button>
+
+                <!-- alert -->
+               <div class="show" id="show2">
+                <h1>Nutritional Values</h1>
+                <p>Studies have shown that organic fruits may containhigher levels of nutrients compared to the convetionally grown fruits</p>
+               </div>
+
+            </div>
+            <div class="categorycontent" id="categorycontent">
+                <img src="Dairy products.jpg" alt="vegies" class="imagee">
+                <h3>Dairy Products</h3>
+                <p>Eat Healthily, be healthy</p>
+                <button class="Buttons" id="Buttons3">Read More</button>
+
+                 <!-- alert -->
+               <div class="show" id="show3">
+                <h1>Nutritional Benefits of Dairy Products</h1>
+                <p>Dairy products are an excellent source pof calcium,which is essential for building and maintaining strong bones and teeth</p>
+               </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- review section -->
+    
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>review</span></h1>
+        <div class="review-slider">
+            <div class="wrapper">
+                <div class="wrappercontent">
+                    <img src="person1jpeg" alt="person">
+                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <h3>Mary Wambui</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="wrappercontent">
+                    <img src="person2.jpeg" alt="person">
+                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <h3>Mark Warren</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+                <div class="wrappercontent">
+                    <img src="person3.jpeg" alt="person">
+                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <h3>Ellen Nick</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+                <div class="wrappercontent">
+                    <img src="person4.jpg" alt="person">
+                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <h3>Nelson Mick</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+    
+    <script src="index.js"></script>
+</body>
+</html>
