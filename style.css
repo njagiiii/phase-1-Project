@@ -1,0 +1,446 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+   
+}
+section{
+    padding: 2rem 9%;
+}
+
+.container{
+    display: flex;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: 0 .5rem .1rem rgba(0,0,0,0.1);
+    width: 100%;
+    height: 120px;
+}
+.container nav{
+    margin-left: 750px;
+    font-size: 25px;
+    margin-top: 42px;
+    
+}
+nav a{
+    padding: 20px 10px;
+    color: #130f40;
+}
+.container .logo{
+    margin-top: 35px;
+    font-size: 32px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: #130f40;
+}
+.container .logo i{
+    color:#ff7800;
+    padding: 10px;
+}
+nav a:hover{
+    color:#ff7800;
+}
+.container .icons i{
+    background-color: lightgrey;
+    border-radius: 10px;
+   
+}
+.container .icons{
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 30px;
+   
+}
+.container .icons i:hover{
+    background-color:#ff7800;
+    
+}
+.container .icons i{
+    padding: 15px;
+}
+.container .form{
+    position: absolute;
+    top: 105%; right: 0rem;
+   width: 50rem;
+   height: 4.5rem;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   box-shadow: 0 .5rem .1rem rgba(0,0,0,0.1);
+   overflow: hidden;
+   border-radius: 20px;
+   display: none;
+  
+}
+.container .form  input{
+   
+   width: 400px;
+   margin-left: 200px;
+   height: 35px;
+   outline: none;
+   border: none;
+   margin-top: 20px;
+
+}
+::placeholder{
+    font-size: 25px;
+    margin-top: 10px;
+}
+#formcontainer{ 
+    position: absolute;
+    top: 105%; right: 2rem;
+   width: 28rem;
+   height: 26rem;
+   background-color: white;
+   display: flex;
+   align-items: center;
+   box-shadow: 0 .5rem .1rem rgba(0,0,0,0.1);
+   overflow: hidden;
+   border-radius: 20px;
+   display: block;
+  display: none;
+
+}
+ .formgroup{
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .formgroup label{
+    display: block;
+    font-size: 30px;
+ }
+ .formgroup input{
+    height: 40px;
+    width: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+ }
+ .formgroup ::placeholder{
+    font-size: 20px;
+ }
+ .formgroup input[type='submit']{
+    border-radius: 30px;
+    height: 50px;
+    
+ }
+ .formgroup input[type='submit']:hover{
+    background-color: #ff7800;
+    border: none;
+    outline: none;
+ }
+ .formgroup input[value='submit']{
+    font-size: 23px;
+ }
+
+ .formgroup p {
+    margin-left: 40px;
+    
+ }
+ .formgroup p a{
+    color: #ff7800;
+    text-decoration-line: underline;
+ }
+ #checkbox{
+    margin-left: 50px;
+    
+ }
+ #barsbtn{
+    display: none;
+ }
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('supermarket-banner-concept-with-ingredients.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 50rem;
+    padding-bottom: 10rem;
+   
+
+}
+ .home .content{
+    text-align: center;
+    width: 60rem;
+   
+}
+.home .content h3{
+    color: #130f40;
+    font-size:  3rem;
+    margin-left: 300px;
+   position: absolute;
+   top: 30%;
+   bottom: 50%;
+}
+.home .content h3 span{
+    color: #ff7800;
+}
+.home .content p {
+    position: absolute;
+    top: 38%;
+    bottom: 50%;
+    margin-left: 350px;
+    color: #666;
+    font-size: 2rem;
+}
+.home .content #button{
+    position: absolute;
+    top: 48%;
+   bottom: 50%;
+   margin-left: 30px;
+   font-size: 1.7rem;
+   height: 50px;
+   width: 200px;
+   border: 2px solid #130f40;
+   background-color: lightgrey;
+   border-radius: 10px;
+}
+.home .content #button:hover{
+    background-color: #ff7800;
+    border: none;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    color: #130f40;
+    padding-bottom: 3rem;
+    padding: 2rem 0; 
+}
+.features span{
+    background: #ff7800;
+    color: #fff;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+    padding: .5rem 3rem;
+    display: inline-block;
+}
+.features .image{
+    width: 250px;
+}
+.features .homecontainer{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+   gap: 1.5rem;
+   
+}
+.features .homecontainer .homecontent{
+    padding: 3rem 2rem;
+    background: #fff;
+    outline: 1rem solid rgba(0,0,0,0.1);
+    outline-offset: -1rem;
+    text-align: center;
+    box-shadow: 1rem solid rgba(0,0,0,0.1);
+}
+.features .homecontainer .homecontent:hover{
+    outline: 1rem solid rgba(0,0,0,.1);
+    outline-offset: 0rem;
+}
+.features .homecontent h3{
+    font-size: 2.5rem ;
+    line-height: 1;
+    color: #130f40;
+}
+.features .homecontent #images{
+    margin-top: 35px;
+    width: 280px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.features .homecontent p{
+    font-size: 1.5rem;
+    color: #130f40;
+}
+.features .homecontent .buttons{
+    font-size: 1.5rem;
+    border-color: #130f40;
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+}
+.features .homecontent .buttons:hover{
+    background-color: #ff7800;
+    
+}
+.features .homecontent .alert{
+    display: none;
+    
+}
+
+.card{
+    float:left;
+    width: 22%;
+    padding: 20px;
+}
+.images{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+    margin-left: 180px;
+    border-radius: 35px;
+}
+
+.productcontainer span{
+    background: #ff7800;
+    color: #fff;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+    padding: .5rem 3rem;
+    display: inline-block;
+}
+.names{
+    margin-left: 350px;
+    font-size: 2rem;
+    
+}
+.price{
+    margin-left: 350px;
+    font-size: 1.6rem;
+}
+.quantity{
+    margin-left: 280px;
+    font-size: 1.6rem;
+}
+.btns{
+    margin-left: 280px;
+    font-size: 1.6rem;
+    width: 300px;
+    border-color: #130f40;
+    height: 60px;
+    border-radius: 20px;
+}
+.btns:hover{
+    border: none;
+    background-color: #ff7800;
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+.modal-content{
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: ipx solid #888;
+    width: 300px;
+    height: 270px;
+}
+.close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.close:hover,.close:focus{
+    color: #000;
+    text-decoration:none;
+    cursor:pointer
+}
+.Button{
+    padding: 10px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.total-amount{
+    margin-top: 20px;
+}
+#quantity{
+    height: 50px;
+}
+.label{
+    font-size: 1.5rem;
+}
+
+.categories span{
+    background: #ff7800;
+    color: #fff;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+    padding: .5rem 3rem;
+    display: inline-block;
+}
+.categories{
+    padding: 2rem 9%;
+}
+
+.categories .headings{
+    text-align: center;
+    padding: 20px;
+}
+.categories .imagee{
+    width: 250px;
+}
+.categories .categorycontainer{
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(26rem,1fr));
+   gap: 1.5rem;
+   
+}
+.categories .categorycontainer .categorycontent{
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    box-shadow:  1rem solid rgba(0,0,0,0.1);
+    outline: 1rem solid rgba(0,0,0,0.1);
+    outline: -1rem;
+    text-align:center;
+    margin-inline: 20px;
+}
+.categories .categorycontainer .categorycontent:hover{
+    outline: 1rem solid rgba(0,0,0,0.1)hover;
+    outline: 0rem;
+}
+.categories .categorycontainer .categorycontent .imagee{
+     margin: 1rem 0;
+     height: 15rem;
+}
+.categories .categorycontainer .categorycontent h3{
+    font-size: 2rem;
+    color: #130f40;
+    line-height: 1.8;
+}
+.categories .categorycontainer .categorycontent p{
+    font-size: 1.7rem;
+    color: black;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+.categories .categorycontainer .categorycontent .Buttons{
+    font-size: 1.5rem;
+    border-color: #130f40;
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+}
+.categories .categorycontent .Buttons:hover{
+    background-color: #ff7800;
+    
+}
+.show h1{
+   line-height: 1.8;
+}
+.show{
+    display: none;
+}
+
+
+ 
