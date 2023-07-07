@@ -29,7 +29,7 @@ Write your code in the `src/index.js` file. The base URL for your API will be
 3. Purchase fruits: The user can purchase the fruits in their cart by clicking the "Buy" button. This will deduct the purchased   quantity from the available quantity in the store.
 
    ```txt
-   GET /films/1
+   GET /products/1
    Example Response:
    {
     "id": 1,
