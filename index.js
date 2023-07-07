@@ -1,67 +1,7 @@
 
- const form = document.getElementById('form')
- const searchbtn = document.getElementById('searchbtn')
- const searchinput = document.getElementById('searchinput')
+document.addEventListener('DOMContentLoaded', () => {
 
- searchbtn.addEventListener('click',() => {
-   
-    if(form.style.display === 'none'){
-      form.style.display = 'block'; //show form
-    }
-    else{
-      form.style.display = 'none'; // hide form
-    }
   
-   
- });
-
-   searchinput.addEventListener('keypress', (e) => {
-    if(e.key === 'Enter'){
-       performtask(searchinput.value)
-       form.style.display ='none'
-
-       //clear searchinput
-       searchinput.value =''
-    }
-    
-     
- });
- //function that performs input task
-  function performtask(query){
-    console.log(query)
-  }
-
-  //user icon
-   const userbtn = document.getElementById('userbtn')
-   const forms = document.getElementById('formcontainer')
-
-   forms.addEventListener('keyup',(e) => {
-      e.preventDefault()
-      console.log(e)
-      if(e.target.dataset.uppercase != undefined ){
-         e.target.value = e.target.value.toUpperCase();
-         
-      }
-      
-   })
-
-   userbtn.addEventListener('click', () => {
-     if(forms.style.display === 'none'){
-      forms.style.display = 'block'
-     } else{
-      forms.style.display = 'none'
-     }
-   })
-   // toogles between pasword visibility
-       
-       document.getElementById('checkbox').addEventListener('click' , () => {
-         let x = document.getElementById('password')
-          if(x.type === 'password'){
-            x.type = 'text'
-          }else{
-            x.type = 'password'
-          }
-       })
        
     //toogle the read more visibility by using event delegation in features
       const container = document.getElementById('homecontainer')
@@ -178,12 +118,73 @@
                 }
             }
           });
+          //make the review section swipe
+           let swiper =new Swiper ('.review-slider',{
+            loop:true,
+            spaceBetween :20,
+            autoplay:{
+              delay:7500,
+              disableOnInteraction:false,
+            },
+            centeredSlides : true,
+            breakpoints:{
+              0:{
+                slidesPerView:1
+              },
+              768:{
+                slidesPerView :2
+              },
+              1020:{
+                slidesPerView:3
+              },
+            },
+           })
+          //  add smooth scrolling to each navbar link
+           document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click',(e) => {
+              e.preventDefault();
+              const targetid = link.getAttribute('href');
+              const targetSection = document.querySelector(targetid)
 
-      
+              if(targetSection){
+                targetSection.scrollIntoView({behavior:'smooth'});
+              }
+            });
+           });
+
+          
+     //get form 
+      let formss = document.getElementById('formss')
+      formss.addEventListener('submit',(e) =>{
+        e.preventDefault();
+
+        let name = document.getElementById('name').value
+        let price = document.getElementById('price').value
+        let image = document.getElementById('image').value
+        let number = document.getElementById('idnumber').value
+
+        //fetch post request
+        fetch('https://code-33jd.onrender.com/products',{
+          method:'POST',
+          body:JSON.stringify({
+            name:name,
+            price:price,
+            image : image,
+            id: number
+          }),
+          headers:{
+            "content-type":"application/json; charset=UTF-8"
+          }
+        })
+        .then(function(res){
+          return res.json()
+        })
+        .then(function(data){
+          console.log(data)
+        })
+      })
 
        
-  
-     
+    });
 
-
-
+    
