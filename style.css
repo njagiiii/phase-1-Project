@@ -13,7 +13,7 @@ body{
    
 }
 section{
-    padding: 2rem 9%;
+    padding:32px 9%;
 }
 
 .container{
@@ -66,7 +66,7 @@ nav a:hover{
 .container .icons i{
     padding: 15px;
 }
-.container .form{
+/* .container .form{
     position: absolute;
     top: 105%; right: 0rem;
    width: 50rem;
@@ -79,8 +79,8 @@ nav a:hover{
    border-radius: 20px;
    display: none;
   
-}
-.container .form  input{
+} */
+/* .container .form  input{
    
    width: 400px;
    margin-left: 200px;
@@ -89,7 +89,7 @@ nav a:hover{
    border: none;
    margin-top: 20px;
 
-}
+} */
 ::placeholder{
     font-size: 25px;
     margin-top: 10px;
@@ -175,8 +175,8 @@ nav a:hover{
 }
 .home .content h3{
     color: #130f40;
-    font-size:  3rem;
-    margin-left: 300px;
+    font-size:  35px;
+    margin-left: 350px;
    position: absolute;
    top: 30%;
    bottom: 50%;
@@ -188,16 +188,16 @@ nav a:hover{
     position: absolute;
     top: 38%;
     bottom: 50%;
-    margin-left: 350px;
+    margin-left: 400px;
     color: #666;
-    font-size: 2rem;
+    font-size: 20px;
 }
 .home .content #button{
     position: absolute;
     top: 48%;
    bottom: 50%;
    margin-left: 30px;
-   font-size: 1.7rem;
+   font-size: 20px;
    height: 50px;
    width: 200px;
    border: 2px solid #130f40;
@@ -211,7 +211,7 @@ nav a:hover{
 
 .heading{
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 30px;
     color: #130f40;
     padding-bottom: 3rem;
     padding: 2rem 0; 
@@ -220,7 +220,7 @@ nav a:hover{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
-    padding: .5rem 3rem;
+    padding: 10px 20px;
     display: inline-block;
 }
 .features .image{
@@ -229,20 +229,18 @@ nav a:hover{
 .features .homecontainer{
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
-   gap: 1.5rem;
+   gap: 20px;
    
 }
 .features .homecontainer .homecontent{
-    padding: 3rem 2rem;
+    padding: 10px 10px;
     background: #fff;
-    outline: 1rem solid rgba(0,0,0,0.1);
-    outline-offset: -1rem;
     text-align: center;
-    box-shadow: 1rem solid rgba(0,0,0,0.1);
+    box-shadow: 5px solid rgba(0,0,0,0.1);
 }
 .features .homecontainer .homecontent:hover{
-    outline: 1rem solid rgba(0,0,0,.1);
-    outline-offset: 0rem;
+    outline: 10px solid rgba(0,0,0,.1);
+    outline-offset: 0px;
 }
 .features .homecontent h3{
     font-size: 2.5rem ;
@@ -257,7 +255,7 @@ nav a:hover{
 }
 
 .features .homecontent p{
-    font-size: 1.5rem;
+    font-size: 22px;
     color: #130f40;
 }
 .features .homecontent .buttons{
@@ -282,9 +280,9 @@ nav a:hover{
     padding: 20px;
 }
 .images{
-    width: 500px;
-    height: 500px;
-    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
     margin-left: 180px;
     border-radius: 35px;
 }
@@ -293,25 +291,25 @@ nav a:hover{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
-    padding: .5rem 3rem;
+    padding: 10px 10px;
     display: inline-block;
 }
 .names{
-    margin-left: 350px;
-    font-size: 2rem;
+    margin-left: 280px;
+    font-size: 25px;
     
 }
 .price{
-    margin-left: 350px;
-    font-size: 1.6rem;
+    margin-left: 250px;
+    font-size: 22px;
 }
 .quantity{
     margin-left: 280px;
-    font-size: 1.6rem;
+    font-size: 22px;
 }
 .btns{
-    margin-left: 280px;
-    font-size: 1.6rem;
+    margin-left: 180px;
+    font-size: 20px;
     width: 300px;
     border-color: #130f40;
     height: 60px;
@@ -368,18 +366,18 @@ nav a:hover{
     height: 50px;
 }
 .label{
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
 .categories span{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
-    padding: .5rem 3rem;
+    padding: 10px 10px;
     display: inline-block;
 }
 .categories{
-    padding: 2rem 9%;
+    padding: 32px 9%;
 }
 
 .categories .headings{
@@ -392,37 +390,36 @@ nav a:hover{
 .categories .categorycontainer{
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(26rem,1fr));
-   gap: 1.5rem;
+   gap: 20px;
    
 }
 .categories .categorycontainer .categorycontent{
-    padding: 3rem 2rem;
-    border-radius: .5rem;
+    padding: 20px 20px;
+    border-radius: 20px;
     background-color: #fff;
     box-shadow:  1rem solid rgba(0,0,0,0.1);
-    outline: 1rem solid rgba(0,0,0,0.1);
-    outline: -1rem;
+    outline: 5px solid rgba(0,0,0,0.1);
     text-align:center;
     margin-inline: 20px;
 }
 .categories .categorycontainer .categorycontent:hover{
-    outline: 1rem solid rgba(0,0,0,0.1)hover;
+    outline: 5px solid rgba(0,0,0,0.1)hover;
     outline: 0rem;
 }
 .categories .categorycontainer .categorycontent .imagee{
-     margin: 1rem 0;
-     height: 15rem;
+     margin: 10px;
+     height: 200px
 }
 .categories .categorycontainer .categorycontent h3{
-    font-size: 2rem;
+    font-size: 25px;
     color: #130f40;
     line-height: 1.8;
 }
 .categories .categorycontainer .categorycontent p{
-    font-size: 1.7rem;
+    font-size: 20px;
     color: black;
     line-height: 1.8;
-    padding: 1rem 0;
+    padding: 10px 0;
 }
 .categories .categorycontainer .categorycontent .Buttons{
     font-size: 1.5rem;
@@ -436,21 +433,19 @@ nav a:hover{
     
 }
 .show h1{
-   line-height: 1.8;
+   line-height: 1.5;
 }
 .show{
     display: none;
 }
 .review .review-slider{
-    padding: 1rem;
+    padding: 10px 10px;
 }
 .review .review-slider .wrappercontent{
-    padding: 3rem 2rem;
-    border-radius: .5rem;
+    padding:10px 10px;
+    border-radius: 10px;
     background-color: #fff;
-    box-shadow:  1rem solid rgba(0,0,0,0.1);
-    outline: 1rem solid rgba(0,0,0,0.1);
-    outline: -1rem;
+    box-shadow:  10px solid rgba(0,0,0,0.1);
     text-align:center;
     margin-inline: 20px;
 }
@@ -465,25 +460,25 @@ nav a:hover{
 
 }
 .review .review-slider .wrappercontent p{
-    padding: 1rem 0;
+    padding: 10px 0;
     line-height: 1.8;
     color: #130f40;
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 .review .review-slider .wrappercontent h3{
-    padding-bottom: 5rem;
+    padding-bottom: 10px;
     color: #130f40;
-    font-size: 2.2rem;
+    font-size: 20px
 }
 .review .review-slider .wrappercontent .stars i{
     color: #ff7800;
-    font-size: 1.5rem;
+    font-size: 15px;
 }
 .review span{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
-    padding: .5rem 3rem;
+    padding: 10px 10px;
     display: inline-block;
 }
 #formss{
@@ -500,8 +495,8 @@ nav a:hover{
 #formss input[type='number']{
     margin-bottom: 10px;
     padding: 10px;
-    border: i1px solid #130f40;
-    font-size: 40px;
+    border: 1px solid #130f40;
+    font-size: 20px;
     width: 500px;
     
 }
@@ -520,12 +515,12 @@ nav a:hover{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
-    padding: .5rem 3rem;
+    padding: 10px 10px;
     display: inline-block;
     
 }
 #formss h1{
-    font-size: 40px;
+    font-size: 25px;
 }
   
 /* .contact form{
@@ -574,35 +569,35 @@ nav a:hover{
 }
 .footer .footercontainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 10px;
 }
 .footer .footercontainer .footercontent h3{
-    font-size: 2.5rem;
+    font-size: 25px;
     color: #130f40;
-    padding: 1rem 0;
+    padding: 20px;
 }
 .footer .footercontainer .footercontent h3 i{
     color: #ff7800;
 }
 .footer .footercontainer .footercontent a{
     display: block;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #130f40;
-    padding: 1rem 0;
+    padding: 15px;
 }
 .footer .footercontainer .footercontent a i{
       color: #ff7800;
-      padding-right: .5rem;
+      padding-right: 20px;
 }
 .footer .footercontainer .footercontent a:hover i{
-    padding-right: 2rem;
+    padding-right: 20px
 }
 .footer .footercontainer .footercontent {
   line-height: 1.8;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #130f40;
-    padding: 1rem 0;
+    padding: 20px;
 }
 .email{
     height: 50px;
