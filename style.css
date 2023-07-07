@@ -18,7 +18,7 @@ section{
 
 .container{
     display: flex;
-    position: fixed;
+   
     background-color: #fff;
     box-shadow: 0 .5rem .1rem rgba(0,0,0,0.1);
     width: 100%;
@@ -441,6 +441,184 @@ nav a:hover{
 .show{
     display: none;
 }
+.review .review-slider{
+    padding: 1rem;
+}
+.review .review-slider .wrappercontent{
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    background-color: #fff;
+    box-shadow:  1rem solid rgba(0,0,0,0.1);
+    outline: 1rem solid rgba(0,0,0,0.1);
+    outline: -1rem;
+    text-align:center;
+    margin-inline: 20px;
+}
+.review .review-slider .wrappercontent:hover{
+    outline: 1rem solid rgba(0,0,0,0.1)hover;
+    outline: 0rem;
+}
+.review .review-slider .wrappercontent img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
 
+}
+.review .review-slider .wrappercontent p{
+    padding: 1rem 0;
+    line-height: 1.8;
+    color: #130f40;
+    font-size: 1.5rem;
+}
+.review .review-slider .wrappercontent h3{
+    padding-bottom: 5rem;
+    color: #130f40;
+    font-size: 2.2rem;
+}
+.review .review-slider .wrappercontent .stars i{
+    color: #ff7800;
+    font-size: 1.5rem;
+}
+.review span{
+    background: #ff7800;
+    color: #fff;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+    padding: .5rem 3rem;
+    display: inline-block;
+}
+#formss{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+   
+    border-radius: 5px;
+}
+#formss input[type='text'],
+#formss input[type='url'],
+#formss input[type='number']{
+    margin-bottom: 10px;
+    padding: 10px;
+    border: i1px solid #130f40;
+    font-size: 40px;
+    width: 500px;
+    
+}
+#formss input[type='submit']{
+    padding: 10px 20px;
+    color: #130f40;
+    border: 1px solid #130f40;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#formss input[type='submit']:hover{
+   background-color: #ff7800;
+}
+#formss span{
+    background: #ff7800;
+    color: #fff;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+    padding: .5rem 3rem;
+    display: inline-block;
+    
+}
+#formss h1{
+    font-size: 40px;
+}
+  
+/* .contact form{
+    text-align: center;
+    padding: 2rem;
+    box-shadow:  1rem solid rgba(0,0,0,0.1);
+}
+.contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact form .inputBox input,.contact form  textarea{
+  padding: 1rem;
+  font-size: 1.7rem;
+  background: #f7f7f7;
+  text-transform: none;
+  margin: 1rem 0;
+  border: .1rem solid #130f40;
+  width: 40%;
+}
+.contact form  textarea{
+    height: 20rem;
+    resize: none;
+    width: 100%;
+}
+.bttn{
+    font-size: 1.5rem;
+    border-color: #130f40;
+    width: 200px;
+    border-radius: 10px;
+    height: 50px;
+}
+.bttn:hover{
+    background-color: #ff7800;
+}
+.contact span{
+    background: #ff7800;
+    color: #fff;
+    clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
+    padding: .5rem 3rem;
+    display: inline-block;
+} */
+.footer{
+    background-color: #fff;
+}
+.footer .footercontainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+.footer .footercontainer .footercontent h3{
+    font-size: 2.5rem;
+    color: #130f40;
+    padding: 1rem 0;
+}
+.footer .footercontainer .footercontent h3 i{
+    color: #ff7800;
+}
+.footer .footercontainer .footercontent a{
+    display: block;
+    font-size: 1.5rem;
+    color: #130f40;
+    padding: 1rem 0;
+}
+.footer .footercontainer .footercontent a i{
+      color: #ff7800;
+      padding-right: .5rem;
+}
+.footer .footercontainer .footercontent a:hover i{
+    padding-right: 2rem;
+}
+.footer .footercontainer .footercontent {
+  line-height: 1.8;
+    font-size: 1.5rem;
+    color: #130f40;
+    padding: 1rem 0;
+}
+.email{
+    height: 50px;
+    width: 400px;
+}
+.btnns{
+    display: block;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 200px;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #130f40;
+}
+.btnns:hover{
+    background-color: #ff7800;
+}
 
  
