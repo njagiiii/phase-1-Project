@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
@@ -19,19 +20,9 @@
             <a href="#">Products</a>
             <a href="#">Categories</a>
             <a href="#">Review</a>
-            <a href="#">Blogs</a>
+            <a href="#">Contact Us</a>
         </nav>
 
-        <div class="icons">
-
-            <i class="fa fa-bars" aria-hidden="true" id="barsbtn"></i>
-            <i class="fa fa-search" aria-hidden="true" id="searchbtn"></i>
-           <i class="fa fa-user" aria-hidden="true" id="userbtn"></i>
-           </div>
-
-           <form action="#" id="form" class="form">
-            <input type="text" id="searchinput" placeholder="search...">
-           </form>
          
            <!-- second form -->
            <form action="#" id="formcontainer">
@@ -198,9 +189,9 @@
     
     <section class="review" id="review">
         <h1 class="heading">Customer's <span>review</span></h1>
-        <div class="review-slider">
-            <div class="wrapper">
-                <div class="wrappercontent">
+        <div class=" swiper review-slider">
+            <div class="swiper-wrapper " >
+                <div class="swiper-slide   wrappercontent">
                     <img src="person1jpeg" alt="person">
                     <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
                     <h3>Mary Wambui</h3>
@@ -211,9 +202,11 @@
                         <i class="fa fa-star"></i>
                     </div>
                 </div>
-                <div class="wrappercontent">
+                <div class=" swiper-slide wrappercontent">
                     <img src="person2.jpeg" alt="person">
-                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <p>Great service and excellent delivery. Not one item was missing and if there was a substitute then that was intimated via email. My only concern is the veggies were not fresh. The okra was all turning black and the fenugreek leaves were turning yellow and wilted. Veggies need to be fresh please and then ill surely add the extra 5th star
+
+                    </p>
                     <h3>Mark Warren</h3>
                     <div class="stars">
                         <i class="fa fa-star"></i>
@@ -222,9 +215,9 @@
                         <i class="fa fa-star"></i>
                     </div>
                 </div>
-                <div class="wrappercontent">
+                <div class="swiper-slide wrappercontent">
                     <img src="person3.jpeg" alt="person">
-                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <p>Overall great service. Takes a little longer than expected for delivery to be dispatched after order so may be you can work on your turn around times. Care given towards frozen products but may be a better way to dispatch frozen things can be thought o</p>
                     <h3>Ellen Nick</h3>
                     <div class="stars">
                         <i class="fa fa-star"></i>
@@ -234,9 +227,9 @@
                         <i class="fa fa-star-half-alt"></i>
                     </div>
                 </div>
-                <div class="wrappercontent">
+                <div class=" swiper-slide wrappercontent">
                     <img src="person4.jpg" alt="person">
-                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
+                    <p> Always find what I am looking for in indian grocery items (unless they are sold out at that time) and the delivery is quick. The best thing I like about Grocery Online is their gesture- they always send a note to say thank you with some of everyone's favourite candies. At times they also send some free goodies to try like a packet of Basmati rice or MTR vermicelli</p>
                     <h3>Nelson Mick</h3>
                     <div class="stars">
                         <i class="fa fa-star"></i>
@@ -250,9 +243,50 @@
         </div>
     </section>
 
+    <!-- form section -->
+    <form method="Delete" id="formss">
+        <h1>Submit <span>Order</span></h1>
+        <input type="text" id="name" placeholder="name of the product..">
+        <input type="text" id="price" placeholder="price of the product..">
+        <input type="url" id="image" placeholder="image of the product..">
+        <input type="number" id="idnumber" placeholder="id of the product..">
+        <input type="submit" value="submit">
+
+    </form>
+   
+   
+    <!-- footer section -->
+    <section class="footer">
+        <div class="footercontainer">
+            <div class="footercontent">
+               <h3>contact info</h3>
+               <a href="#" class="links"><i class="fa fa-phone"></i> +123-456-7890</a>
+               <a href="#" class="links"><i class="fa fa-phone"></i> +111-222-333</a>
+               <a href="#" class="links"><i class="fa fa-arrow-envelop"></i> Nairobi, Kenya - 2000</a>
+            </div>
+
+            <div class="footercontent">
+                <h3>quick links</h3>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> home</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> features</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> products</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                <a href="#" class="links"><i class="fa fa-arrow-right"></i> submit an order</a>   
+            </div>
+
+            <div class="footercontent">
+                <h3>newsletter</h3>
+                <p>Subscribe for latest update</p>
+                <input type="email" placeholder="example@gmail.com" class="email">
+                <input type="submit" value="subscribe" class="btnns ">
+                    
+            </div>
+        </div>
+    </section>
+
 
    
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> 
     <script src="index.js"></script>
 </body>
 </html>
