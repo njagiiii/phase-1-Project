@@ -36,7 +36,6 @@ Write your code in the `src/index.js` file. The base URL for your API will be
     "id": 1,
     "name": "Apple",
     "image": "https://img.freepik.com/premium-photo/red-apples-isolated-white-background-ripe-fresh-apples-clipping-path-apple-with-leaf_299651-595.jpg",
-    "discount": "-30%",
     "quantity": "kg",
     "price": "$10"
   },
@@ -95,7 +94,7 @@ Write your code in the `src/index.js` file. The base URL for your API will be
 
 ## Author
     Grace Makena Njagi
-    
+
 ## License 
    MIT License
 
