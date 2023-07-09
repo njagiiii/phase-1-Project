@@ -21,34 +21,10 @@
             <a href="#">Categories</a>
             <a href="#">Review</a>
             <a href="#">Contact Us</a>
-        </nav>
-
-         
-           <!-- second form -->
-           <form action="#" id="formcontainer">
-            <div class="formgroup">
-            <label for="name" >Username</label>
-            <input type="text" id="Username" name="Username" placeholder="Enter Username..." data-uppercase>
-            </div>
-
-        <div class="formgroup">
-
-            <label for="Password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Enter Password...">
             
-           </div>
-           <input type='checkbox' id="checkbox">Show Password
-          
+        </nav>
+        
 
-           <div class="formgroup">
-            <p>Forgot your password? <a href="#">Click here</a></p>
-            <p>Don't have an account? <a href="#">Sign up</a></p>
-           </div>
-
-           <div class="formgroup">
-            <input type="submit" value="submit" id="submit">
-        </div>
-           </form>
  </div>
 
         <!-- home section starts -->
@@ -134,157 +110,166 @@
             <label for="quantity" class="label">Quantity</label>
             <input type="number" id="quantity" class="quantity-input">
             <button id="addTocart" class="Button">Add to your cart</button>
+            <button id="deletebtn" class="Button">Delete</button>
+             
             <p class="total-Amount" id="totalamount"></p>
         </div>
     </div>
      
-    <!-- section Categories -->
-    <section class="categories" id="categories">
-        <h1 class="heading">Product <span>Category</span></h1>
+   <!-- category section -->
+    <div class="category" id="category">
+        <h1 class="heading">Our<span>Category</span></h1>
         <div class="categorycontainer" id="categorycontainer">
+            <div class="categorycontent">
+                <img src="organic vegies.jpg" alt="">
+                <h3>Organic Vegies</h3>
+                <p>Green, organic, and oh so healthy. Nothing's better than organic vegetables. Veggies without the GMO. All natural greens for a healthier you.</p>
+                 <button class="Buttons">Read More</button>
 
-            <div class="categorycontent" id="categorycontent">
-                <img src="organic vegies.jpg" alt="vegies" class="imagee">
-                <h3>Organic Vegetables</h3>
-                <p>It's always better when it's natural</p>
-                <button class="Buttons" id="buttons">Read More</button>
-
-                <!-- alert -->
-               <div class="show" id="show1">
-                <h1>Supporting Local Farmers</h1>
-                <p>Buying Organic Vegetables supports local farmers who follow environment friendly practices and encourages a moresustainable food system</p>
-               </div>
-            </div>
-
-            <div class="categorycontent" id="categorycontent">
-                <img src="organic fruits.jpg" alt="vegies" class="imagee">
-                <h3>Organic Fruits</h3>
-                <p>I live my life by the seed of my plants</p>
-                <button class="Buttons" id="Buttons2">Read More</button>
-
-                <!-- alert -->
-               <div class="show" id="show2">
-                <h1>Nutritional Values</h1>
-                <p>Studies have shown that organic fruits may containhigher levels of nutrients compared to the convetionally grown fruits</p>
-               </div>
-
-            </div>
-            <div class="categorycontent" id="categorycontent">
-                <img src="Dairy products.jpg" alt="vegies" class="imagee">
-                <h3>Dairy Products</h3>
-                <p>Eat Healthily, be healthy</p>
-                <button class="Buttons" id="Buttons3">Read More</button>
-
-                 <!-- alert -->
-               <div class="show" id="show3">
-                <h1>Nutritional Benefits of Dairy Products</h1>
-                <p>Dairy products are an excellent source pof calcium,which is essential for building and maintaining strong bones and teeth</p>
-               </div>
-            </div>
-
-        </div>
-
-    </section>
-    <!-- review section -->
-    
-    <section class="review" id="review">
-        <h1 class="heading">Customer's <span>review</span></h1>
-        <div class=" swiper review-slider">
-            <div class="swiper-wrapper " >
-                <div class="swiper-slide   wrappercontent">
-                    <img src="person1jpeg" alt="person">
-                    <p>Lovely, delicious products, that I'm thoroughly enjoying eating here, thanks. However, when the order arrived the driver told me the original box it had been sent in had fallen apart, so they'd had to repackage/secure all the contents within it, so they did, very well indeed too. So you may want to consider this please, in order to try to make these boxes/deliveries more secure, thanks</p>
-                    <h3>Mary Wambui</h3>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                </div>
-                <div class=" swiper-slide wrappercontent">
-                    <img src="person2.jpeg" alt="person">
-                    <p>Great service and excellent delivery. Not one item was missing and if there was a substitute then that was intimated via email. My only concern is the veggies were not fresh. The okra was all turning black and the fenugreek leaves were turning yellow and wilted. Veggies need to be fresh please and then ill surely add the extra 5th star
+                 <div class="show" id="show1">
+                    <h1>Benefits of Organic Vegies</h1>
+                    <p>Organic vegiesis often fresher because it doesn't contain preservatives that make it last longer. Organic produce is sometimes (but not always, so watch where it is from) produced on smaller farms nearer to where it is sold.
 
                     </p>
-                    <h3>Mark Warren</h3>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                    </div>
-                </div>
-                <div class="swiper-slide wrappercontent">
-                    <img src="person3.jpeg" alt="person">
-                    <p>Overall great service. Takes a little longer than expected for delivery to be dispatched after order so may be you can work on your turn around times. Care given towards frozen products but may be a better way to dispatch frozen things can be thought o</p>
-                    <h3>Ellen Nick</h3>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-alt"></i>
-                    </div>
-                </div>
-                <div class=" swiper-slide wrappercontent">
-                    <img src="person4.jpg" alt="person">
-                    <p> Always find what I am looking for in indian grocery items (unless they are sold out at that time) and the delivery is quick. The best thing I like about Grocery Online is their gesture- they always send a note to say thank you with some of everyone's favourite candies. At times they also send some free goodies to try like a packet of Basmati rice or MTR vermicelli</p>
-                    <h3>Nelson Mick</h3>
-                    <div class="stars">
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star"></i>
-                        <i class="fa fa-star-half-alt"></i>
-                    </div>
-                </div>
+                 </div>
             </div>
+            <div class="categorycontent">
+                <img src="organic fruits.jpg" alt="">
+                <h3>Organic Fruits</h3>
+                <p>Sweet, tasty and organic! They don't say 'fruitful' for nothing. Health with beauty; best deal. More fruit, more life.</p>
+                <button class="Buttons">Read More</button>
+
+                <div class="show" id="show2">
+                    <h1>Importance of Fruits</h1>
+                    <p>Organic fruits is GMO-free. Genetically Modified Organisms (GMOs) or genetically engineered (GE) foods are plants whose DNA has been altered in ways that cannot occur in nature or in traditional crossbreeding, most commonly in order to be resistant to pesticides or produce an insecticide.
+
+                    </p>
+                 </div>
+            </div>
+            <div class="categorycontent">
+                <img src="Dairy products.jpg" alt="">
+                <h3>Dairy Products</h3>
+                <p>We make life's small moments refreshing and convenient.Take on the day with confidence using our products</p>
+                <button class="Buttons">Read More</button>
+
+                <div class="show" id="show3">
+                       <h1>Nutrients</h1>
+                    <p>Organic milk can be richer in certain nutrients. Results of a 2016 European study show that levels of certain nutrients, including omega-3 fatty acids, were up to 50 percent higher in organic meat and milk than in conventionally raised versions.</p>
+                 </div>
+            </div>
+
         </div>
-    </section>
+    </div>
 
-    <!-- form section -->
-    <form method="Delete" id="formss">
-        <h1>Submit <span>Order</span></h1>
-        <input type="text" id="name" placeholder="name of the product..">
-        <input type="text" id="price" placeholder="price of the product..">
-        <input type="url" id="image" placeholder="image of the product..">
-        <input type="number" id="idnumber" placeholder="id of the product..">
-        <input type="submit" value="submit">
+    <!-- review section -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer's <span>review</span></h1>
+           <div class="swiper review-slider">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide wrappercontent">
+                <img src="person1jpeg" alt="person">
+                 <p>Great experience,happy to shop again! % 15 discount whaveas encouraging too.I received all the products that I ordered in 2 days,well wrapped to prevent leakage, supported with ice packs and bubble wrapped for the jars.(But they can be more environmentally friendly)They were all fresh qnd good quality. The simit ring were the family favourites. We tried the Turkish pizza,all well loved.
+                    I just expected to see the delivery day/time before I completed the transaction or tge order confirmation. However,DHL contacted with a message about the delivery and kept it updated. I believe it improves next time.
+                    Thanks
+                    M.Atabek</p>
+                    <h3>Aisha May</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
 
-    </form>
-   
-   
-    <!-- footer section -->
-    <section class="footer">
-        <div class="footercontainer">
-            <div class="footercontent">
-               <h3>contact info</h3>
-               <a href="#" class="links"><i class="fa fa-phone"></i> +123-456-7890</a>
-               <a href="#" class="links"><i class="fa fa-phone"></i> +111-222-333</a>
-               <a href="#" class="links"><i class="fa fa-arrow-envelop"></i> Nairobi, Kenya - 2000</a>
+                    </div>
             </div>
+            <div class="swiper-slide wrappercontent">
+                <img src="person2.jpeg" alt="person">
+                 <p>Great customer experience. Fast response to queries and our order arrived fast, each item securely packed and cooling bags for fridge items. Very good prices considering similar websites selling Turkish products. It was our second order from them and will become a regular. Great customer experience. Fast response to queries and our order arrived fast, each item securely packed and cooling bags for fridge items. Very good prices considering similar websites selling Turkish products. It was our second order from them and will become a regular. Thank you very much
 
-            <div class="footercontent">
-                <h3>quick links</h3>
-                <a href="#" class="links"><i class="fa fa-arrow-right"></i> home</a>
-                <a href="#" class="links"><i class="fa fa-arrow-right"></i> features</a>
-                <a href="#" class="links"><i class="fa fa-arrow-right"></i> products</a>
-                <a href="#" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
-                <a href="#" class="links"><i class="fa fa-arrow-right"></i> submit an order</a>   
+                 </p>
+                    <h3>Nick Merson</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
             </div>
+            <div class="swiper-slide wrappercontent">
+                <img src="person3.jpeg" alt="person">
+                 <p>Faultless service! I placed an online order on 31.1.23 and it was delivered to Scotland the next morning 1.2.23.they arrived with ice packs in the box so the food was kept at the correct temperature. I also received a free gift with my order which was an unexpected surprise. I will be placing an other order shortly. 10/10.Great customer experience. Fast response to queries and our order arrived fast, each item securely packed and cooling bags for fridge items. Very good prices considering similar websites selling Turkish products. It was our second order from them and will become a regular. Thank you very much
 
-            <div class="footercontent">
-                <h3>newsletter</h3>
-                <p>Subscribe for latest update</p>
-                <input type="email" placeholder="example@gmail.com" class="email">
-                <input type="submit" value="subscribe" class="btnns ">
+                 </p>
+                   <h3>Nelisha Nay</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
+            </div>
+            <div class="swiper-slide wrappercontent">
+                <img src="person4.jpg" alt="person">
+                 <p>We'll packaged, immediately sent,all kept cool and fresh. Would use again.This is one of the best experience we ever had ! Professional premium service,products were beautifully and securely packed and lil suprise.. who doesn't love it ? 🥰 I am so grateful and I'll be loyal customer.
+
+                    Highly Recommend !
                     
+                    KlaudiaGreat customer experience. Fast response to queries and our order arrived fast, each item securely packed and cooling bags for fridge items. Very good prices considering similar websites selling Turkish products. It was our second order from them and will become a regular. Thank you very much
+
+                </p>
+                   <h3>Nelson Mark</h3>
+                    <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+
+                    </div>
             </div>
+           </div>
         </div>
+    </div>
     </section>
 
+    <!-- form grocery -->
+    
+    <form class="addform" id="addforms">
+        <h1>Add <span>Grocery</span></h1>
+        <div class="formgroup" id="formgroup">
+        <input type="number" id="id" name="id" placeholder="productid....">
+         <input type="text" id="name" name="name"placeholder="name of product...">
+         <input type="text" id="price" name="price"placeholder="price of product...">
+         <input type="url" id="image_url" name="image_url" placeholder="urlofimage">
+         <input type="submit" value="submit">
+         <input type="submit" value="update">
+         </div>
+    </form>
 
+   <section class="footer">
+    <div class="footercontainer">
+        <div class="footercontent">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"><i class="fa fa-phone"></i> 123-456-789</a>
+            <a href="#" class="links"><i class="fa fa-phone"></i> 111-222-333</a>
+            <a href="#" class="links"><i class="fa fa-envelope"></i>keshgrace62@gmail.com</a>
+            <a href="#" class="links"><i class="fa fa-map-marker-alt"></i>Nairobi,Kenya</a>
+        </div>
+        <div class="footercontent">
+            <h3>quick links</h3>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i> Home</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i> features</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>products</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Categories</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>reviews</a>
+        </div>
+        <div class="footercontent">
+            <h3>newsletter</h3>
+           <p>Subscribe for latest updates</p>
+           <input type="email" name="email" id="email" placeholder="your email adress..." class="email">
+        </div>
+    </div>
+   </section>
    
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> 
     <script src="index.js"></script>
