@@ -66,7 +66,7 @@ nav a:hover{
 .container .icons i{
     padding: 15px;
 }
-/* .container .form{
+  .container .form{
     position: absolute;
     top: 105%; right: 0rem;
    width: 50rem;
@@ -79,8 +79,8 @@ nav a:hover{
    border-radius: 20px;
    display: none;
   
-} */
-/* .container .form  input{
+} 
+.container .form  input{
    
    width: 400px;
    margin-left: 200px;
@@ -89,7 +89,7 @@ nav a:hover{
    border: none;
    margin-top: 20px;
 
-} */
+} 
 ::placeholder{
     font-size: 25px;
     margin-top: 10px;
@@ -163,8 +163,8 @@ nav a:hover{
     background: url('supermarket-banner-concept-with-ingredients.jpg') no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 50rem;
-    padding-bottom: 10rem;
+    padding-top:650px;
+    padding-bottom: 250px;
    
 
 }
@@ -243,7 +243,7 @@ nav a:hover{
     outline-offset: 0px;
 }
 .features .homecontent h3{
-    font-size: 2.5rem ;
+    font-size: 26px ;
     line-height: 1;
     color: #130f40;
 }
@@ -276,12 +276,12 @@ nav a:hover{
 
 .card{
     float:left;
-    width: 22%;
+    width: 20%;
     padding: 20px;
 }
 .images{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin-bottom: 10px;
     margin-left: 180px;
     border-radius: 35px;
@@ -295,12 +295,12 @@ nav a:hover{
     display: inline-block;
 }
 .names{
-    margin-left: 280px;
+    margin-left: 320px;
     font-size: 25px;
     
 }
 .price{
-    margin-left: 250px;
+    margin-left: 330px;
     font-size: 22px;
 }
 .quantity{
@@ -308,7 +308,7 @@ nav a:hover{
     font-size: 22px;
 }
 .btns{
-    margin-left: 180px;
+    margin-left: 250px;
     font-size: 20px;
     width: 300px;
     border-color: #130f40;
@@ -369,31 +369,42 @@ nav a:hover{
     font-size: 20px;
 }
 
-.categories span{
+.category span{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
     padding: 10px 10px;
     display: inline-block;
+    margin-top: 800px;
+    margin-right: 100px;
+    
 }
-.categories{
+.category{
     padding: 32px 9%;
+  
 }
 
-.categories .headings{
+.category .heading{
     text-align: center;
     padding: 20px;
+    margin-top: 100px;
+    margin-inline: 50px;
+    margin-left: 100px;
+    
+    
 }
-.categories .imagee{
+.category img{
     width: 250px;
+    margin: 10px;
+    height: 200px
 }
-.categories .categorycontainer{
+.category .categorycontainer{
    display: grid;
    grid-template-columns: repeat(auto-fit,minmax(26rem,1fr));
    gap: 20px;
    
 }
-.categories .categorycontainer .categorycontent{
+.category .categorycontainer .categorycontent{
     padding: 20px 20px;
     border-radius: 20px;
     background-color: #fff;
@@ -406,34 +417,32 @@ nav a:hover{
     outline: 5px solid rgba(0,0,0,0.1)hover;
     outline: 0rem;
 }
-.categories .categorycontainer .categorycontent .imagee{
-     margin: 10px;
-     height: 200px
-}
-.categories .categorycontainer .categorycontent h3{
+
+.category .categorycontainer .categorycontent h3{
     font-size: 25px;
     color: #130f40;
     line-height: 1.8;
 }
-.categories .categorycontainer .categorycontent p{
+.category .categorycontainer .categorycontent p{
     font-size: 20px;
     color: black;
     line-height: 1.8;
     padding: 10px 0;
 }
-.categories .categorycontainer .categorycontent .Buttons{
+.category .categorycontainer .categorycontent .Buttons{
     font-size: 1.5rem;
     border-color: #130f40;
     width: 200px;
     border-radius: 10px;
     height: 50px;
 }
-.categories .categorycontent .Buttons:hover{
+.category .categorycontent .Buttons:hover{
     background-color: #ff7800;
     
 }
 .show h1{
    line-height: 1.5;
+   font-size: 25px;
 }
 .show{
     display: none;
@@ -450,8 +459,8 @@ nav a:hover{
     margin-inline: 20px;
 }
 .review .review-slider .wrappercontent:hover{
-    outline: 1rem solid rgba(0,0,0,0.1)hover;
-    outline: 0rem;
+    outline: 20px solid rgba(0,0,0,0.1)hover;
+    outline: 0px;
 }
 .review .review-slider .wrappercontent img{
     height: 15rem;
@@ -481,7 +490,7 @@ nav a:hover{
     padding: 10px 10px;
     display: inline-block;
 }
-#formss{
+#addforms{
     display: flex;
     flex-direction: column;
     max-width: 400px;
@@ -490,28 +499,30 @@ nav a:hover{
    
     border-radius: 5px;
 }
-#formss input[type='text'],
-#formss input[type='url'],
-#formss input[type='number']{
-    margin-bottom: 10px;
+#addforms input[type='text'],
+#addforms input[type='url'],
+#addforms input[type='number']{
+    margin-bottom: 25px;
     padding: 10px;
     border: 1px solid #130f40;
     font-size: 20px;
     width: 500px;
     
 }
-#formss input[type='submit']{
-    padding: 10px 20px;
+#addforms input[type='submit']{
+    padding: 10px 10px;
     color: #130f40;
     border: 1px solid #130f40;
     border-radius: 15px;
     cursor: pointer;
     font-size: 16px;
+    margin-left: 90px;
+    margin-bottom: 15px;
 }
 #formss input[type='submit']:hover{
    background-color: #ff7800;
 }
-#formss span{
+#addforms span{
     background: #ff7800;
     color: #fff;
     clip-path: polygon(100% 0, 93% 50%, 100% 99%,0% 100%,7% 50%,0% 0%);
@@ -519,8 +530,9 @@ nav a:hover{
     display: inline-block;
     
 }
-#formss h1{
-    font-size: 25px;
+#addforms h1{
+    font-size: 30px;
+    margin-left: 150px;
 }
   
 /* .contact form{
@@ -602,13 +614,15 @@ nav a:hover{
 .email{
     height: 50px;
     width: 400px;
+    border-radius: 15px;
+    border-color: #130f40;
 }
 .btnns{
     display: block;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 50px;
     width: 200px;
-    padding: 20px 15px;
+    padding: 10px 10px;
     border-radius: 15px;
     color: #130f40;
 }
